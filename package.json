@@ -18,6 +18,7 @@
   "author": "Sébastien Cevey <seb@cine7.net>",
   "license": "Apache-2",
   "jspm": {
+    "registry": "jspm",
     "format": "es6",
     "directories": {
       "lib": "src"
