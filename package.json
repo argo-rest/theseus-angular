@@ -18,16 +18,15 @@
   "author": "Sébastien Cevey <seb@cine7.net>",
   "license": "Apache-2",
   "jspm": {
-    "registry": "jspm",
     "format": "es6",
     "directories": {
       "lib": "src"
     },
     "dependencies": {
       "angular": "^1.3.0",
-      "theseus": "~0.2.0",
       "any-http-angular": "~0.1.0",
-      "any-promise-angular": "~0.1.0"
+      "any-promise-angular": "github:argo-rest/any-promise-angular@~0.1.0",
+      "theseus": "~0.2.0"
     }
   },
   "devDependencies": {
