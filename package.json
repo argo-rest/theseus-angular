@@ -1,0 +1,36 @@
+{
+  "name": "theseus-angular",
+  "version": "0.2.0",
+  "description": "Theseus module for AngularJS",
+  "keywords": [
+    "theseus",
+    "hypermedia",
+    "api",
+    "client",
+    "angular"
+  ],
+  "homepage": "https://github.com/argo-rest/theseus-angular",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/argo-rest/theseus-angular.git"
+  },
+  "main": "src/theseus-angular.js",
+  "author": "Sébastien Cevey <seb@cine7.net>",
+  "license": "Apache-2",
+  "jspm": {
+    "registry": "jspm",
+    "format": "es6",
+    "directories": {
+      "lib": "src"
+    },
+    "dependencies": {
+      "angular": "^1.3.0",
+      "theseus": "~0.2.0",
+      "any-http-angular": "~0.1.0",
+      "any-promise-angular": "~0.1.0"
+    }
+  },
+  "devDependencies": {
+    "jspm": "^0.10.6"
+  }
+}
