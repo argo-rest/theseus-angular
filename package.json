@@ -27,10 +27,10 @@
       "angular": "^1.3.0",
       "any-http-angular": "~0.1.0",
       "any-promise-angular": "~0.1.0",
-      "theseus": "^0.3.0"
+      "theseus": "^0.4.0"
     }
   },
   "devDependencies": {
-    "jspm": "^0.10.6"
+    "jspm": "^0.15.3"
   }
 }
